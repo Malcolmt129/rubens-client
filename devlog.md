@@ -37,3 +37,22 @@ But maybe this why dotenv files are used? I will have to do my research on this 
 
 To do:
 Find out how to set environment variables only in development, and not have to change system variables... See if this is even possible and feasible.
+
+
+### 07-01-2022
+
+Wow its a lot of shit you don't know!
+
+First, I have to get home and see if the chdanges that I made to the Karma file will actually allow me to test. I just put the path to chrome from the WSL directly into the browsers bracket. It's not a path variable but I feel as though I can do this as long as I add the karma config file to the gitignore. DO NOT FORGET TO ADD THE KARMA FILE TO THE GITIGNORE. We'll have to experiment more with path variables at a later time.
+
+I need the extension to view HTML files instantly...
+
+
+Questions:
+
+How do I get past this issue.
+
+### 07-03-2022
+
+The way to get past the issue is to download Chrome to the WSL. Remember, when you run apps off of Linux, Linux needs that app in the path. This means that even if you have it in windows, it does not matter. You need to download in Linux. Remember this moving forward!
+
