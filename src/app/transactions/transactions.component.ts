@@ -5,9 +5,13 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './transactions.component.html',
   styleUrls: ['./transactions.component.scss']
 })
-export class TransactionsComponent {
+export class TransactionsComponent implements OnInit {
 
   constructor() { }
 
+  ngOnInit(): void {
+    
+    console.log("Transaction component initiated.")
+  }
 
 }

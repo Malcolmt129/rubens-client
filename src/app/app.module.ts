@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TransactionsComponent } from './transactions/transactions.component';
+import { MatSidenavModule} from '@angular/material/sidenav'
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { TransactionsComponent } from './transactions/transactions.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
