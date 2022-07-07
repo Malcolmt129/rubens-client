@@ -56,3 +56,7 @@ How do I get past this issue.
 
 The way to get past the issue is to download Chrome to the WSL. Remember, when you run apps off of Linux, Linux needs that app in the path. This means that even if you have it in windows, it does not matter. You need to download in Linux. Remember this moving forward!
 
+### 07-05-2022
+
+Fixed the testing script. Trying to make the routing work. I see that it switches to the right path for a split second before it goes back to the main page. This possibly means that the route is working but something is making it go back. After that initial switch it doesn't twitch like that again. So this could be one of the problems that my classmates were having. It had something to do with updating the new page.
+

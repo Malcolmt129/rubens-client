@@ -1,10 +1,12 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { TransactionsComponent } from './transactions/transactions.component';
+import { AppComponent } from './app.component';
 
 
 const routes: Routes = [
-  { path: '',   redirectTo: '/transactions', pathMatch: 'full' },
+  { path: '',   redirectTo: 'AppCompenet', pathMatch: 'full' },
+  { path: 'App', component: AppComponent},
   { path: 'transactions', component: TransactionsComponent }
 ];
 
