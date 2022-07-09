@@ -9,9 +9,6 @@ export class TransactionsComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-    
-    console.log("Transaction component initiated.")
-  }
+  ngOnInit(): void {}
 
 }
